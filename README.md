@@ -1,9 +1,9 @@
 <h3 align="center">
   
-  <p align="center"><img src="https://img.shields.io/badge/𝗪𝗟𝗖𝗠 𝗧𝗢 -𝗔𝗟𝗜𝗙 𝗠𝗘𝗗𝗜𝗔 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">  
+  <p align="center"><img src="https://img.shields.io/badge/𝗪𝗟𝗖𝗠 𝗧𝗢 -𝗔𝗟𝗜𝗙 𝗠𝗘𝗗𝗜𝗔 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
+    
   </ph3>
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&size=25&color=30FF40&background=000000&center=true&vCenter=true&width=360&height=60&lines=Hello+World%2C+I'm+Mr-NAYAN+Here+🤙;𝙸𝚃'𝚜+𝙽𝙾𝚃+𝙰+𝙹𝚄𝚂𝚃+𝙽𝙰𝙼𝙴+𝙱𝚁𝙾+🥱;𝙸𝚃'𝚜+𝙰+𝙱𝚁𝙰𝙽𝙳+🔥;Respect+Mr.NAYAN+🥀;Thanks+My+All+Friend+🤙+🥰)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&size=25&color=30FF40&background=000000&center=true&vCenter=true&width=360&height=60&lines=Hello+World%2C+I'm+ALIF-HOSSOM+Here+🥵;𝙸𝚃'𝚜+𝙽𝙾𝚃+𝙰+𝙹𝚄𝚂𝚃+𝙽𝙰𝙼𝙴+𝙱𝚁𝙾+😼;𝙸𝚃'𝚜+𝙰+𝙱𝚁𝙰𝙽𝙳+🔥;Respect+Alif-Hosson;Thanks+My+All+Friend+😙+😌)](https://git.io/typing-svg)
 
 
 <a href="https://www.npmjs.com/package/alif-media-downloader"><img alt="npm version" src="https://img.shields.io/npm/v/alif-media-downloader.svg?style=flat-square"></a>
