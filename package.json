@@ -4,7 +4,7 @@
   "description": "Fetch Url Downloads From Instagram & Facebook & TikTok & YouTube & Twitter & Google Drive & Pintarest & likee & threads",
   "main": "alif/index.js",
   "scripts": {
-    "test": "node src/test.js"
+    "test": "node alif/test.js"
   },
   "repository": {
     "type": "git",
