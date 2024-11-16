@@ -1,6 +1,6 @@
 {
   "name": "alif-media-downloader",
-  "version": "1.0.2",
+  "version": "2.2.0",
   "description": "Fetch Url Downloads From Instagram & Facebook & TikTok & YouTube & Twitter & Google Drive & Pintarest & likee & threads",
   "main": "alif/index.js",
   "scripts": {
@@ -37,7 +37,7 @@
     "capcut",
     "likee",
     "threads",
-    "ALIF"
+    "alif"
   ],
   "author": "ALIF",
   "license": "MIT",
