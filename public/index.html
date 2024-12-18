@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alif Video Downloader</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      text-align: center;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    input {
+      padding: 10px;
+      width: 80%;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .result {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Video Downloader</h1>
+    <p>Enter the video URL below to download:</p>
+    <input type="text" id="videoUrl" placeholder="Enter video URL" />
+    <button onclick="fetchDownloadLink()">Download</button>
+    <div id="result" class="result"></div>
+  </div>
+
+  <script>
+    async function fetchDownloadLink() {
+      const url = document.getElementById("videoUrl").value;
+      if (!url) {
+        alert("Please enter a valid URL");
+        return;
+      }
+
+      const resultDiv = document.getElementById("result");
+      resultDiv.innerHTML = "Loading...";
+
+      try {
+        const response = await fetch(`/alldl?url=${encodeURIComponent(url)}`);
+        const data = await response.json();
+
+        if (data.error) {
+          resultDiv.innerHTML = `<p style="color: red;">Error: ${data.error}</p>`;
+        } else {
+          const downloadLink = data.downloadLink || "#";
+          resultDiv.innerHTML = `
+            <p>Download link:</p>
+            <a href="${downloadLink}" target="_blank">Click here to download</a>
+          `;
+        }
+      } catch (err) {
+        resultDiv.innerHTML = `<p style="color: red;">An error occurred. Please try again.</p>`;
+      }
+    }
+  </script>
+</body>
+</html>
