@@ -1,0 +1,12 @@
+{
+  "name": "alif-video-downloader",
+  "version": "1.0.0",
+  "description": "Video downloader service with HTML and API",
+  "main": "api/alldl.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
